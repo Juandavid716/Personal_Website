@@ -1,11 +1,21 @@
 body {
   background-color: #f5f5f5;
 }
+a,
+a:link {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+a:hover {
+  color: brown;
+}
 /* navbar section */
 #navbar {
   width: 100%;
   top: 0;
   left: 0;
+
   height: 4rem;
   display: flex;
   align-items: center;
@@ -23,7 +33,6 @@ body {
   font-size: 16px;
 }
 .navbar-sons ul:hover {
-  color: brown;
   font-size: 20px;
 }
 
@@ -40,9 +49,6 @@ body {
   animation-duration: 4s;
   animation-delay: 1s;
   animation-iteration-count: infinite;
-}
-.myName > ul {
-  padding-left: 130px;
 }
 
 @keyframes example {
@@ -62,7 +68,6 @@ body {
 /* container */
 .container {
   border-radius: 2px;
-
   margin-top: 15px;
 }
 .avatar-logo,
@@ -99,8 +104,9 @@ body {
   border-style: solid;
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  height: 300px;
+  height: auto;
   width: 100%;
+  padding: 20px;
 }
 .exp-section,
 .platzi,
@@ -172,15 +178,18 @@ li {
   width: 70px;
 } */
 /* Third row */
-#courses {
-  height: 500px;
-  width: 90%;
-  margin: 100px;
+#courses-child {
+  height: auto;
+  width: 100%;
+
   border-style: solid;
   border-color: gray;
   border: 1px solid rgba(0, 0, 0, 0.15);
 }
-
+.courses {
+  margin: 30px;
+  width: 88%;
+}
 #title,
 h2 {
   padding: 16px;
@@ -194,9 +203,10 @@ h6 {
 /* Media query */
 @media (max-width: 900px) {
   .navbar-sons {
-    width: 50%;
+    width: 40%;
   }
-  .avatar-logo {
+
+  /* .avatar-logo {
     flex-direction: column;
     justify-content: top;
     align-items: center;
@@ -211,7 +221,7 @@ h6 {
   .list,
   .personal-info {
     width: 40%;
-  }
+  } */
 }
 /* @media (max-width: 900px) {
   .myName {
@@ -220,7 +230,7 @@ h6 {
 } */
 @media (max-width: 450px) {
   #navbar {
-    font-size: 11px;
+    font-size: 10px;
     justify-content: space-around;
   }
 }
