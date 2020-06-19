@@ -1,17 +1,20 @@
+body {
+  background-color: #f5f5f5;
+}
 /* navbar section */
 #navbar {
   width: 100%;
-  position: relative;
   top: 0;
   left: 0;
   height: 4rem;
   display: flex;
   align-items: center;
+  background-color: #1a1a1a;
 }
 .navbar-sons {
-  width: 50%;
   display: flex;
-  right: 100px;
+  width: 50%;
+  right: 130px;
   position: absolute;
   justify-content: space-around;
   color: grey;
@@ -23,14 +26,32 @@
   color: brown;
   font-size: 20px;
 }
-#myName {
+
+.myName {
   font-family: "Tangerine", sans-serif;
+  display: flex;
   text-decoration: none;
   font-style: italic;
   font-weight: 600;
   font-size: 3em;
   position: absolute;
-  left: 130px;
+  color: black;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+.myName > ul {
+  padding-left: 130px;
+}
+
+@keyframes example {
+  from {
+    color: black;
+  }
+  to {
+    color: lightsalmon;
+  }
 }
 /* divisor */
 /* .divisor {
@@ -40,15 +61,18 @@
 } */
 /* container */
 .container {
+  border-radius: 2px;
+
+  margin-top: 15px;
 }
 .avatar {
   border-radius: 50%;
   height: 250px;
 }
-.profile,
-p {
-  padding-right: 20px;
-  width: 50%;
+.father-prof {
+}
+.profile {
+  width: 100%;
 }
 .text-intro {
   font-size: 25px;
@@ -57,6 +81,42 @@ p {
   padding: 20px;
   margin: 10px;
 }
+/* Second row */
+.experience {
+  border-radius: 2px;
+  border-style: solid;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  height: 300px;
+  width: 100%;
+}
+.exp-section,
+.platzi,
+.openu,
+.lacnic {
+  display: flex;
+  align-items: flex-start;
+}
+
+.exp {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+
+  margin-top: 10px;
+}
+
+.logo {
+  height: 200px;
+  width: 100px;
+}
+.logo-curse {
+  height: 100px;
+  width: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
 li {
   list-style-type: none;
   margin-right: 2px;
@@ -64,13 +124,46 @@ li {
 .material-icons {
   margin-right: 5px;
 }
+.idiomas {
+  display: flex;
+  justify-content: flex-start;
+  margin: 3px;
+}
+.tam {
+  height: 70px;
+  width: 70px;
+}
+/* Third row */
+#courses {
+  height: 500px;
+  width: 90%;
+  margin: 100px;
+  border-style: solid;
+  border-color: gray;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#title,
+h2 {
+  padding: 16px;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+h6 {
+  color: gainsboro;
+}
+
 /* Media query */
 @media (max-width: 900px) {
   .navbar-sons {
     width: 80%;
   }
 }
-
+/* @media (max-width: 900px) {
+  .myName {
+    width: 80%;
+  }
+} */
 @media (max-width: 450px) {
   #navbar {
     font-size: 11px;

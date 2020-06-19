@@ -22,66 +22,148 @@
   </head>
   <body>
     <nav id="navbar">
-      <ul id="myName">
-        Juan Bojato
-      </ul>
+      <!-- <div class="myName">
+        <ul>
+          Juan Bojato
+        </ul>
+      </div> -->
+
       <div class="navbar-sons">
         <ul>
-          Home
+          <a href="/index.html">
+            Home
+          </a>
         </ul>
         <ul>
-          Projects
+          <a href="/projects.html">
+            Projects
+          </a>
         </ul>
         <ul>
-          Interest
+          <a href="interest.html">
+            Interest
+          </a>
         </ul>
         <ul>
-          Contact me
+          <a href="contact.html">
+            Contact me
+          </a>
         </ul>
       </div>
     </nav>
     <div class="divisor"></div>
     <div class="container">
       <div class="row">
-        <div class="col profile">
-          <img class="avatar" src="./imgs/jb.jpg" />
-          <ul>
-            <li>
-              <span class="material-icons">place</span>
-              Barranquilla, Colombia
-            </li>
+        <div class="col father-prof">
+          <div class="profile">
+            <img class="avatar" src="./imgs/jb.jpg" />
+            <ul>
+              <li>
+                <span class="material-icons">place</span>
+                Barranquilla, Colombia
+              </li>
 
-            <li>
-              <span class="material-icons">
-                star
-              </span>
-              Unity, Java, Python, Js
-            </li>
+              <li>
+                <span class="material-icons">
+                  star
+                </span>
+                Unity, Java, Python, Js
+              </li>
 
-            <li><span class="material-icons"> school </span> 8th Semester</li>
-            <li>
-              <span class="material-icons">
-                contact_mail
-              </span>
-              jbojato@uninorte.edu.co
-            </li>
+              <li><span class="material-icons"> school </span> 8th Semester</li>
+              <li>
+                <span class="material-icons">
+                  contact_mail
+                </span>
+                jbojato@uninorte.edu.co
+              </li>
 
-            <li></li>
-          </ul>
+              <li></li>
+            </ul>
+            <div class="idiomas">
+              <div>
+                <img class="tam" src="imgs/colombia-flag-round-xs.png" />
+                <p>Español (Nativo)</p>
+              </div>
+              <div>
+                <img
+                  class="tam"
+                  src="imgs/united-states-of-america-flag-round-xs.png"
+                />
+                <p>Inglés (B1-B2)</p>
+              </div>
+              <div>
+                <img class="tam" src="imgs/germany-flag-round-xs.png" />
+                <p>Alemán (A1-A2)</p>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col text-intro">
           <h1>
-            Hello, Welcome to my website!
+            Hi, It's me, Juan Bojato!
           </h1>
           <p>
             I am a Student of Computer Science in Universidad del Norte.
           </p>
+          <div class="experience">
+            <h2>
+              Experience
+            </h2>
+            <div class="exp-section">
+              <div class="logo">
+                <img src="imgs/north.png" />
+              </div>
+              <div class="text-exp">
+                <h4>Software Developer</h4>
+                <h5>Universidad del Norte ~ Contrato temporal</h5>
+                <h6>
+                  jul.de 2019 - ene de 2020 ~ 7 meses <br />Barranquilla,
+                  Colombia
+                </h6>
+                <p class="exp">
+                  Development of learning objects in Virtual Reality for Centro
+                  para la Excelencia Docente (CEDU) from Universidad del norte,
+                  using as Unity motor graphic.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="experience"></div>
       </div>
     </div>
-    <div class="courses">
-      <h1>Courses</h1>
+    <div id="courses">
+      <h1 id="title">Courses</h1>
+      <div class="lacnic">
+        <div class="logo-curse">
+          <img src="imgs/lacnic.png" />
+        </div>
+        <div>
+          <h4>IPV6 básico - 1 edición - 2020</h4>
+          <h5>LACNIC</h5>
+          <h6>Expedición: Mayo de 2020</h6>
+        </div>
+      </div>
+      <div class="platzi">
+        <div class="logo-curse">
+          <img src="imgs/platzi.png" />
+        </div>
+        <div>
+          <h4>Curso profesional de Git y Github</h4>
+          <h5>Platzi</h5>
+          <h6>Expedición: Octubre de 2019</h6>
+        </div>
+      </div>
+      <div class="openu">
+        <div class="logo-curse">
+          <img src="imgs/openuniversity.png" />
+        </div>
+        <div>
+          <h4>Introduction to Cyber Security</h4>
+          <h5>The Open University</h5>
+          <h6>Expedición: Octubre de 2019</h6>
+        </div>
+      </div>
     </div>
   </body>
 </html>
