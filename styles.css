@@ -65,12 +65,24 @@ body {
 
   margin-top: 15px;
 }
+.avatar-logo,
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .avatar {
   border-radius: 50%;
-  height: 250px;
+  max-width: 50%;
+  height: auto;
 }
+
 .father-prof {
+  display: flex;
+  justify-content: center;
 }
+
 .profile {
   width: 100%;
 }
@@ -116,23 +128,49 @@ body {
   margin-right: 20px;
   margin-bottom: 20px;
 }
-
+.icons {
+  position: relative;
+  top: 4px;
+  margin-left: 3px;
+}
 li {
   list-style-type: none;
   margin-right: 2px;
 }
-.material-icons {
-  margin-right: 5px;
+.list {
+  padding-left: 0;
 }
 .idiomas {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   margin: 3px;
 }
 .tam {
+  height: 50px;
+  width: 50px;
+}
+/* .idiomas {
+  width: 100%;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.idiomas > div {
+  width: 50%;
+} */
+.idiomas > div > p {
+  font-size: 10px;
+}
+
+/* .tam {
+  max-width: 30%;
+  height: auto;
+} */
+/* .tam {
   height: 70px;
   width: 70px;
-}
+} */
 /* Third row */
 #courses {
   height: 500px;
@@ -156,7 +194,23 @@ h6 {
 /* Media query */
 @media (max-width: 900px) {
   .navbar-sons {
-    width: 80%;
+    width: 50%;
+  }
+  .avatar-logo {
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+  }
+  .profile {
+    justify-content: center;
+  }
+  .tam {
+    width: 30px;
+    height: 30px;
+  }
+  .list,
+  .personal-info {
+    width: 40%;
   }
 }
 /* @media (max-width: 900px) {
