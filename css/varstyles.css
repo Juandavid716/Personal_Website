@@ -50,4 +50,65 @@ h1 {
   height: 500px;
   margin-top: 30px;
 }
+
+.contact-url {
+  color: lightseagreen;
+}
+
+.contact-email:link {
+  color: lightseagreen;
+}
+
+.interest {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  height: 700px;
+}
+
+.interest .int-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.interest .int-child h3 {
+  margin-bottom: 20px;
+}
+
+.img-size {
+  height: 150px;
+  width: 80px;
+}
+
+.img-ball {
+  height: 140px;
+  width: 140px;
+  margin-left: 10px;
+}
+
+@media (max-width: 450px) {
+  .int-child h3 {
+    font-size: 14px;
+  }
+}
 /*# sourceMappingURL=varstyles.css.map */

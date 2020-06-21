@@ -40,3 +40,43 @@ h1 {
 .table-container {
   @extend %table-properties;
 }
+.contact-url {
+  color: lightseagreen;
+}
+.contact-email:link {
+  color: lightseagreen;
+}
+
+.interest {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 700px;
+  .int-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h3 {
+      margin-bottom: 20px;
+    }
+  }
+}
+.img-size {
+  height: 150px;
+  width: 80px;
+}
+.img-ball {
+  height: 140px;
+  width: 140px;
+  margin-left: 10px;
+}
+@media (max-width: 450px) {
+  .int-child {
+    h3 {
+      font-size: 14px;
+    }
+  }
+}
