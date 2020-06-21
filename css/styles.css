@@ -14,7 +14,6 @@ a:hover {
   width: 100%;
   top: 0;
   left: 0;
-
   height: 4rem;
   display: flex;
   align-items: center;
@@ -230,8 +229,9 @@ li {
 }
 
 @media (max-width: 450px) {
-  #navbar {
-    font-size: 10px;
+  #navbar,
+  .navbar-sons {
+    font-size: 12px;
     justify-content: space-around;
   }
 }

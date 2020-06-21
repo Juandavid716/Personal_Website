@@ -43,4 +43,11 @@ h1 {
 .title-table {
   margin-top: 20px;
 }
+
+.table-container {
+  width: 70%;
+  margin: 0 auto;
+  height: 500px;
+  margin-top: 30px;
+}
 /*# sourceMappingURL=varstyles.css.map */

@@ -31,3 +31,12 @@ h1 {
 .title-table {
   margin-top: 20px;
 }
+%table-properties {
+  width: 70%;
+  margin: 0 auto;
+  height: 500px;
+  margin-top: 30px;
+}
+.table-container {
+  @extend %table-properties;
+}
