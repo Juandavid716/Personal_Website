@@ -70,7 +70,6 @@ a:hover {
 .personal-info {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .avatar {
@@ -81,12 +80,12 @@ a:hover {
 
 .father-prof {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .profile {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .text-intro {
   font-size: 25px;
@@ -151,9 +150,14 @@ li {
   padding-left: 0;
 }
 .idiomas {
-  display: flex;
-  justify-content: center;
   margin: 3px;
+}
+.idiomas-children {
+  width: 50%;
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .tam {
   height: 50px;
@@ -207,31 +211,24 @@ li {
 /* Media query */
 @media (max-width: 900px) {
   .navbar-sons {
-    width: 40%;
+    width: 30%;
   }
-
-  /* .avatar-logo {
+}
+@media (max-width: 575px) {
+  .avatar-logo,
+  .personal-info {
+    display: flex;
     flex-direction: column;
-    justify-content: top;
     align-items: center;
   }
-  .profile {
-    justify-content: center;
+  .idiomas-children {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
   }
-  .tam {
-    width: 30px;
-    height: 30px;
-  }
-  .list,
-  .personal-info {
-    width: 40%;
-  } */
 }
-/* @media (max-width: 900px) {
-  .myName {
-    width: 80%;
-  }
-} */
+
 @media (max-width: 450px) {
   #navbar {
     font-size: 10px;
