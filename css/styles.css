@@ -5,10 +5,9 @@ a,
 a:link {
   text-decoration: none;
   color: white;
-  font-size: 16px;
 }
 a:hover {
-  color: brown;
+  color: lightseagreen;
 }
 /* navbar section */
 #navbar {
@@ -27,13 +26,10 @@ a:hover {
   right: 130px;
   position: absolute;
   justify-content: space-around;
-  color: grey;
-  font-weight: 500;
-  font-family: "metropolis", sans-serif;
-  font-size: 16px;
-}
-.navbar-sons ul:hover {
-  font-size: 20px;
+  color: white;
+  font-weight: 550;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
 }
 
 .myName {
@@ -99,24 +95,30 @@ a:hover {
   padding: 20px;
   margin: 10px;
 }
+.presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
 /* Second row */
 .experience {
   border-radius: 2px;
-  border-style: solid;
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.15);
   height: auto;
   width: 100%;
-  padding: 20px;
 }
+
 .exp-section,
-.platzi,
 .openu,
 .lacnic {
   display: flex;
   align-items: flex-start;
 }
-
+.udemy,
+.platzi {
+  display: flex;
+  align-items: flex-end;
+}
 .exp {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
@@ -127,6 +129,7 @@ a:hover {
 .logo {
   height: 200px;
   width: 100px;
+  margin: 15px 15px 15px 0px;
 }
 .logo-curse {
   height: 100px;
@@ -179,7 +182,7 @@ li {
   width: 70px;
 } */
 /* Third row */
-#courses-child {
+#courses-father {
   height: auto;
   width: 100%;
 
@@ -187,18 +190,18 @@ li {
   border-color: gray;
   border: 1px solid rgba(0, 0, 0, 0.15);
 }
+.courses-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .courses {
   margin: 30px;
   width: 88%;
 }
-#title,
-h2 {
+#title {
   padding: 16px;
   font-family: Verdana, Tahoma, sans-serif;
-}
-
-h6 {
-  color: gainsboro;
 }
 
 /* Media query */

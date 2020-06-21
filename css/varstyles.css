@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+.btn-primary:hover {
+  background-color: green;
+}
+
 .titles {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,5 +22,12 @@
 .titles div {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-weight: 600;
+  margin-bottom: 1;
+}
+
+#german {
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 1.25rem;
 }
 /*# sourceMappingURL=varstyles.css.map */
