@@ -1,19 +1,19 @@
 # Personal_Website
 
-a personal website about Juan Bojato :)
+A personal website about Juan Bojato :)
 
-#Index.html
+## Index.html
 
-This page contains all the information about me (location, experiences, course)
+This page contains all the information about me (location, experiences, course).
 
-#Interes.html
+## Interes.html
 
 This page contains my interests in order to know more about me.
 
-#projects.html
+## Projects.html
 
 This page contains all the projects made by me along my life.
 
-#contact.html
+## Contact.html
 
 In this page you can contact me or follow me in any of my social networks.
