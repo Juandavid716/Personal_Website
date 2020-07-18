@@ -2,6 +2,8 @@
 
 A personal website about Juan Bojato :)
 
+<div align="center"><img src="https://i.ibb.co/3m4KjSL/infoprofile.png" width="1200px"></div>
+
 ## Index.html
 
 This page contains all the information about me (location, experiences, course).
