@@ -127,7 +127,7 @@ a:hover {
   display: flex;
   align-items: flex-start;
 }
-.curse {
+.course {
   display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
@@ -146,13 +146,13 @@ a:hover {
 h2 {
   font-family: "Poppins", sans-serif;
 }
-.logo-curse {
+.logo-course {
   height: 100px;
   width: 100px;
   margin-left: 20px;
   margin-right: 20px;
 }
-.logo-curse img {
+.logo-course img {
   height: 100px;
   width: 100px;
 }
