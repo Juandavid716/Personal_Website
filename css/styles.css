@@ -108,6 +108,7 @@ a:hover {
   height: auto;
   width: 100%;
   padding: 1rem;
+  margin-bottom: 5rem;
 }
 #experienceTitle {
   display: flex;
@@ -119,17 +120,18 @@ a:hover {
   align-items: center;
   width: 100%;
 }
-
-.exp-section,
-.openu,
-.lacnic {
+.exp-section {
+  margin: 20px 0px;
+}
+.exp-section {
   display: flex;
   align-items: flex-start;
 }
-.udemy,
-.platzi {
+.curse {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  min-height: 126px;
 }
 .exp {
   font-size: 16px;
@@ -139,8 +141,6 @@ a:hover {
 }
 
 .logo {
-  height: 200px;
-  width: 100px;
   margin: 15px 15px 15px 0px;
 }
 h2 {
@@ -151,7 +151,10 @@ h2 {
   width: 100px;
   margin-left: 20px;
   margin-right: 20px;
-  margin-bottom: 20px;
+}
+.logo-curse img {
+  height: 100px;
+  width: 100px;
 }
 .icons {
   position: relative;
